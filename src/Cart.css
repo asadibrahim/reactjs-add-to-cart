@@ -1,0 +1,37 @@
+.text-center {
+    text-align: center;
+}
+
+.cart {
+    padding: 20px;
+}
+
+.CartTable {
+    margin-top: 4rem;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+
+.CartRow>td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.CartImage {
+    width: 35px;
+    height: 35px;
+    margin: 1rem;
+}
+
+.cart h2 {
+    text-align: center;
+}

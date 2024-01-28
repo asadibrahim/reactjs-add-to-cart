@@ -1,0 +1,84 @@
+/* Your existing styles... */
+
+input[type="number"] {
+    width: 28px;
+}
+.product-details-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+  }
+  
+  .product-image {
+    width: 30%;
+    overflow: hidden;
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-info {
+    width: 70%;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  
+  .product-info h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+  }
+  
+  .product-info p {
+    margin: 0 0 15px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .quantity-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .quantity-container label {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .quantity-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-buttons button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .quantity-buttons input {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 6px;
+  }
+  
+  .add-to-cart-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
